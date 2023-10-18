@@ -3,8 +3,9 @@
 ########################################################################################################
 """
 Title: iron_pylightxl
-Developed by: pydpiper
-Version: 0.0.0
+Originally developed by: pydpiper
+Iron fork maintained by: James Parrott
+Version: 0.0.1
 License: MIT
 
 Copyright (c) 2019 Viktor Kis
@@ -33,19 +34,11 @@ Original / parent project source: https://github.com/PydPiper/pylightxl
 
 Documentation: https://pylightxl.readthedocs.io/en/latest/
 
-Description: Pylightxl is a light-weight Microsoft Excel cell value reader/writer. Its strength over
+Original description: Pylightxl is a light-weight Microsoft Excel cell value reader/writer. Its strength over
 existing libraries comes from the fact that pylightxl has zero non-standard libraries (zero-dependency),
 supports python2-3, and its light-weight single file size makes it favorable to copy pylightxl into
 your own projects for true zero-dependency. Please see documentation for full list of capabilities and
 limitations.
-
-Developers Notes:
-    - always write test cases first
-    - strive for simple/intuitive API interface
-    - write docstrings with type annotations (unfortunately type-hints are not python2 compatible)
-    - write documentation as a function is developed
-    - zipfile from python 2.7.18 comes with zipfile 1.6 that doesnt come with file.seek method
-      this is why readxl function open zip files 2x (once for namespace and once for tree)
 
 Code Structure:
     - SEC-00: PREFACE

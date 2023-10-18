@@ -10,10 +10,10 @@ else:
     ModuleNotFoundError = ImportError
 
 try:
-    from pylightxl import pylightxl as xl
+    from iron_pylightxl import iron_pylightxl as xl
 except ModuleNotFoundError:
     sys.path.append('..')
-    from pylightxl import pylightxl as xl
+    from iron_pylightxl import iron_pylightxl as xl
 
 
 if 'test' in os.listdir('.'):

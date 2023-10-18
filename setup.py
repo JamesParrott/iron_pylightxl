@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pylightxl", # Replace with your own username
-    version="1.61",
+    name="iron_pylightxl", # Replace with your own username
+    version="0.0.1",
     author="Viktor Kis",
     author_email="realpydpiper@gmail.com",
     license="MIT",
-    description="A light weight excel read/writer for python27 and python3 with no dependencies",
+    description="A light weight excel read/writer for python27, python3 and IronPython, with no dependencies",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/PydPiper/pylightxl",
+    url="https://github.com/JamesParrott/iron_pylightxl",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 2.7",
