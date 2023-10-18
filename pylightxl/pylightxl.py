@@ -2,9 +2,9 @@
 # SEC-00: PREFACE
 ########################################################################################################
 """
-Title: pylightxl
+Title: iron_pylightxl
 Developed by: pydpiper
-Version: 1.61
+Version: 0.0.0
 License: MIT
 
 Copyright (c) 2019 Viktor Kis
@@ -27,7 +27,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Source: https://github.com/PydPiper/pylightxl
+This fork's source: https://github.com/JamesParrott/iron_pylightxl
+
+Original / parent project source: https://github.com/PydPiper/pylightxl
 
 Documentation: https://pylightxl.readthedocs.io/en/latest/
 
@@ -66,7 +68,7 @@ import os
 import sys
 import shutil
 import warnings
-from xml.etree import cElementTree as ET
+from xml.etree import ElementTree as ET
 import time
 from datetime import datetime, timedelta
 
